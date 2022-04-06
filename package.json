@@ -1,0 +1,27 @@
+{
+  "name": "recursive-obj-searcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sawadyecma/recursive-obj-searcher.git"
+  },
+  "author": "dyecma <snowslidez@yahoo.co.jp> (https://github.com/sawadyecma)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sawadyecma/recursive-obj-searcher/issues"
+  },
+  "homepage": "https://github.com/sawadyecma/recursive-obj-searcher#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4"
+  },
+  "jest": {
+    "preset": "ts-jest"
+  }
+}
