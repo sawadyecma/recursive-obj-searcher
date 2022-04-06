@@ -26,6 +26,11 @@ export class RecursiveObjSearcher {
       return;
     }
 
+    // nullガード
+    if (!obj) {
+      return;
+    }
+
     if (this.matcher(obj)) {
       this.matched.push(obj);
     }
